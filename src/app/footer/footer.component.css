@@ -3,10 +3,9 @@ footer {
     padding: 5px;
   
   }
-  table{
-    /*align-self: center;*/
-    align-items: center;
-    
-  }
+table{
+  width: 100;
+
+}
 
   

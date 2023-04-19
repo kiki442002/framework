@@ -6,10 +6,17 @@
     --primary: #477998;
     --secondary: #07004D;
     --secondary_other:#A6808C;
+    --H1: 'Roboto Flex' 'GRAD' 45, 'slnt' 0, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 45, 'YTLC' 514, 'YTUC' 712, 'YTAS' 854, 'YTDE' -258, 'YTFI' 738;
+    --H1_size: 2.5rem;
 
 
 }
 
-body{
+html{
     background-color: var(--background);
+    width: 100%;
+    height:100%;
+    /* font-variation-settings: ; */
+    font-family: var(--H1);
+    /* font-size: var(--H1_size); */
 }
