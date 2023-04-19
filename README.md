@@ -1,5 +1,5 @@
 # Framework
-https://prod.liveshare.vsengsaas.visualstudio.com/join?416E7CB46734CFF7CDC9A1F9F2596CE0B093
+https://prod.liveshare.vsengsaas.visualstudio.com/join?CC9231BEC9002159B7FA7231AB2733403196 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
