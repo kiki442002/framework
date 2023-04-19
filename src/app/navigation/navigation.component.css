@@ -9,8 +9,9 @@
     
 }
 
-.titre{
-    h
+.logo{
+    height: 100%;
+    width: fit-content;
 }
 .navBarre{
     width: 100%;
