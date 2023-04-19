@@ -1,5 +1,5 @@
 # Framework
-https://prod.liveshare.vsengsaas.visualstudio.com/join?C542C107BA8592A511BA7A3470C38DC61FB7
+https://prod.liveshare.vsengsaas.visualstudio.com/join?4C8957CB84EF3821DFE5E45F7AA8EA90CEED
 
 http://perso.univ-lemans.fr/~mblanc/
 
