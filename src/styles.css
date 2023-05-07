@@ -1,22 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 
-*{
-    --background:#F4F2F3; 
+* {
+    --background: #F4F2F3;
     --font: #28231C;
     --primary: #477998;
     --secondary: #07004D;
-    --secondary_other:#A6808C;
-    --H1: 'Roboto Flex' 'GRAD' 45, 'slnt' 0, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 45, 'YTLC' 514, 'YTUC' 712, 'YTAS' 854, 'YTDE' -258, 'YTFI' 738;
+    --secondary_other: #A6808C;
+    --secondary_light: rgba(166, 128, 140, 0.6);
+
     --H1_size: 2.5rem;
 
 
 }
 
-html{
+html {
     background-color: var(--background);
     width: 100%;
-    height:100%;
-    /* font-variation-settings: ; */
-    font-family: var(--H1);
-    /* font-size: var(--H1_size); */
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Roboto Flex';
+    color: var(--font);
+
+}
+
+
+h1 {
+    /* Police */
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-variation-settings: 'GRAD' 45, 'slnt' 0, 'XTRA' 468, 'XOPQ' 96, 'YOPQ' 45, 'YTLC' 514, 'YTUC' 712, 'YTAS' 854, 'YTDE' -258, 'YTFI' 738;
+    color: var(--secondary);
+    text-align: center;
+}
+
+p {
+    width: 85%;
+    font-size: 1.5rem;
 }

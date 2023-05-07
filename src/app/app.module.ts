@@ -8,6 +8,8 @@ import { RechercheComponent } from './recherche/recherche.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { ButtonComponent } from './button/button.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NavigationComponent } from './navigation/navigation.component';
     RechercheComponent,
     FormulaireComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    ButtonComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
