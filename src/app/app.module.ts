@@ -11,6 +11,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
 import { ButtonCardComponent } from './button-card/button-card.component';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ButtonCardComponent } from './button-card/button-card.component';
     NavigationComponent,
     ButtonComponent,
     CardComponent,
-    ButtonCardComponent
+    ButtonCardComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,

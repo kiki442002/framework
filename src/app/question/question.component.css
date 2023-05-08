@@ -1,0 +1,29 @@
+div.question {
+    width: 80em;
+    height: 10rem;
+    background-color: var(--secondary_other);
+    margin: 2% 0 2% 0;
+    border-radius: 2rem;
+    padding: 1.5%
+}
+
+h2.question {
+    margin-top: 0;
+    font-size: 1.5;
+    margin-bottom: 0.5%;
+}
+
+p.question {
+    margin-top: 0;
+    margin-bottom: 0.5%;
+}
+
+li.question {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+input.question {
+    margin-left: 0;
+    margin-right: 0.5%;
+}
