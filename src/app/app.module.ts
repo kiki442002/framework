@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
+import { ButtonCardComponent } from './button-card/button-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './card/card.component';
     FooterComponent,
     NavigationComponent,
     ButtonComponent,
-    CardComponent
+    CardComponent,
+    ButtonCardComponent
   ],
   imports: [
     BrowserModule,

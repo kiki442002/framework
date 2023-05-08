@@ -1,0 +1,30 @@
+div.card {
+    height: 23rem;
+    width: 13rem;
+    border: solid 0.15rem var(--font);
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+img.card {
+    max-width: 100%;
+    max-height: 45%;
+    border-radius: 1rem;
+}
+
+h3.feature {
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+
+div.feature {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}

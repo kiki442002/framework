@@ -40,3 +40,14 @@ p.hero {
     width: auto;
     text-align: center;
 }
+
+div.carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.arrow {
+    cursor: pointer;
+}
