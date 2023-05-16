@@ -2,9 +2,9 @@ div.formulaire {
     margin-top: 0%;
     margin-bottom: 5%;
     width: 85%;
-    height: 50rem;
+    height: 48vw;
     background-color: var(--secondary_light);
-    border-radius: 2rem;
+    border-radius: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ div.liste {
     width: 90%;
     height: 85%;
     background-color: var(--secondary_light);
-    border-radius: 2rem;
+    border-radius: 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,9 +39,9 @@ button.submit {
     border: 0;
     color: var(--background);
     height: fit-content;
-    width: 10rem;
-    padding: 0.5rem;
-    font-size: 1.3rem;
+    width: 10vw;
+    padding: 0.5vw;
+    font-size: 1.3vw;
     transition: background-color 0.3s, width 0.3s, font-size 0.3s;
     cursor: pointer;
     margin-bottom: 1.5%;
@@ -49,7 +49,7 @@ button.submit {
 
 .submit:hover {
     background-color: var(--font);
-    width: 11rem;
-    font-size: 1.5rem;
+    width: 11vw;
+    font-size: 1.5vw;
 
 }
