@@ -20,6 +20,7 @@ html {
     font-size: 100%;
     font-family: 'Roboto Flex';
     color: var(--font);
+    scroll-behavior: smooth;
 
 }
 

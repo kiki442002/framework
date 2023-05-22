@@ -51,3 +51,7 @@ div.carrousel {
 img.arrow {
     cursor: pointer;
 }
+
+#bas {
+    cursor: pointer
+}
