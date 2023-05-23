@@ -12,6 +12,7 @@ import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
 import { ButtonCardComponent } from './button-card/button-card.component';
 import { QuestionComponent } from './question/question.component';
+import { FiltreComponent } from './filtre/filtre.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { QuestionComponent } from './question/question.component';
     ButtonComponent,
     CardComponent,
     ButtonCardComponent,
-    QuestionComponent
+    QuestionComponent,
+    FiltreComponent
   ],
   imports: [
     BrowserModule,
