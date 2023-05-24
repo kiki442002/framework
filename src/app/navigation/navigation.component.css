@@ -1,9 +1,18 @@
 a.clic {
     display: flex;
-    align-items: center;
-    width: auto;
+    justify-content: center;
+    width: fit-content;
     text-decoration: none;
     color: var(--font);
+    border-radius: 1vw;
+    transition: box-shadow 0.3s, background-color 0.3s;
+
+}
+
+a.clic:hover {
+    box-shadow: 0 0 0.5rem var(--font);
+    background-color: var(--font_light);
+
 
 }
 
@@ -17,7 +26,6 @@ a.clic {
     width: fit-content;
     background-color: var(--font);
     padding: 0.5rem;
-
 }
 
 .navBarre {
@@ -39,7 +47,7 @@ div.home {
     align-items: center;
     width: 30%;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
 
 
 }
