@@ -1,3 +1,6 @@
+/* ce fichier contient la partie css de la barre de navigation
+tout est spécifié pour chaque composants */
+
 a.clic {
     display: flex;
     justify-content: center;
@@ -26,6 +29,10 @@ a.clic:hover {
     width: fit-content;
     background-color: var(--font);
     padding: 0.5rem;
+    border-radius: 1vw;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+
 }
 
 .navBarre {
@@ -47,7 +54,6 @@ div.home {
     align-items: center;
     width: 30%;
     text-align: center;
-    /* margin: auto; */
 
 
 }
@@ -146,6 +152,8 @@ p.aide {
     width: 30%;
     text-align: center;
     margin: auto;
+    
+
 
 
 }
