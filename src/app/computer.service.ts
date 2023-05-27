@@ -11,7 +11,7 @@ export class ComputerService {
   constructor(private http: HttpClient) { }
   
   getComputers() {
-    return this.http.get<Computer[]>("https://my-json-server.typicode.com/Poubzs/computer");
+    return this.http.get<Computer[]>("https://my-json-server.typicode.com/Poubzs/computer/posts");
   }
 
   addComputersToPage() {
