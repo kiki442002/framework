@@ -1,12 +1,17 @@
 footer {
   text-align: center;
-  padding: 5px;
-
-
+  padding: 5% 0;
 }
 
 table {
-  width: 100;
-
+  width: 50%;
+  margin: 0 auto;
 }
 
+table td {
+  padding: 0 10px;
+}
+
+p {
+  width: auto;
+}
