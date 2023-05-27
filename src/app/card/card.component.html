@@ -1,7 +1,7 @@
 <div class="card">
-    <img class="card" src="../../assets/images/pc_test.jpg" alt="pc_test">
-    <h3 class="feature">{{ computer.nom }}</h3>
-    <div></div>
+    <img class="card" [src]="'../../assets/images/'+ computer.type +'.jpg'" alt="{{ computer.nom }}">
+    <h3 class="feature">{{ computer.marque}} {{ computer.nom }}</h3>
+    
     <div class="feature">RAM: {{ computer.system.ram }} Go</div>
     <div class="feature">CPU: {{ computer.system.cpu.nom }}</div>
     <div class="feature">HDD: {{ computer.system.hdd.capacite }} Go</div>
