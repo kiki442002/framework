@@ -1,30 +1,30 @@
 <div id="page">
     <h1>Trouvez le PC de vos rêves !</h1>
     <div class="recherche">
-      <div class="filtre">
-        <div id="titre">
-          <h2>Filtres</h2>
+        <div class="filtre">
+            <div id="titre">
+                <h2>Filtres</h2>
+            </div>
+            <div id="filtre">
+                <app-filtre></app-filtre>
+                <app-filtre></app-filtre>
+                <app-filtre></app-filtre>
+            </div>
         </div>
-        <div id="filtre">
-          <app-filtre></app-filtre>
-          <app-filtre></app-filtre>
-          <app-filtre></app-filtre>
+        <div class="zone">
+            <div id="top">
+                <div></div>
+                <div class="search">
+                    <img class="search" src="../../assets/images/recherche.svg" alt="recherche">
+                    <input type="text" class="search" name="recherche" [(ngModel)]="NomPC">
+                </div>
+                <img class="search filter" src="../../assets/images/filtre.svg" alt="filter">
+            </div>
+            <div id="bottom">
+                <app-card *ngFor="let computer of computers" [computer]="computer"></app-card>
+            </div>
         </div>
-      </div>
-      <div class="zone">
-        <div id="top">
-          <div></div>
-          <div class="search">
-            <img class="search" src="../../assets/images/recherche.svg" alt="recherche">
-            <input type="text" class="search" name="recherche" [(ngModel)]="NomPC">
-          </div>
-          <img class="search filter" src="../../assets/images/filtre.svg" alt="filter">
-        </div>
-        <div id="bottom">
-          <app-card *ngFor="let computer of computers" [computer]="computer"></app-card>
-        </div>
-      </div>
-      <div id="border"></div>
+        <div id="border"></div>
     </div>
-  </div>
+</div>
   
