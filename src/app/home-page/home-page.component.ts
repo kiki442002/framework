@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ComputerService, Computer } from '../computer.service';
 
 @Component({
   selector: 'app-home-page',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent {
-
+  desktopComputers: Computer[] = [];
+  constructor(private computerService: ComputerService) {
+    this.desktopComputers = this.computerService.getComputers().filter(computer => computer.type === 'fixe');
+  }
 }

@@ -22,9 +22,9 @@
     <div class="carrousel">
         <img class="arrow" src="../../assets/images/flecheGauche.svg" alt="flecheGauche">
         <div></div>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
+            <ng-container *ngFor="let computer of desktopComputers">
+                <app-card [computer]="computer"></app-card>
+            </ng-container>
         <div></div>
         <img class="arrow" src="../../assets/images/flecheDroite.svg" alt="flecheDroite">
     </div>
