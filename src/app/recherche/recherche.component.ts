@@ -8,18 +8,19 @@ import { ComputerService, Computer } from '../computer.service';
 })
 export class RechercheComponent implements OnInit {
   public NomPC: string = "";
-  public computers: Computer[] = [];
 
   constructor(public computerservice: ComputerService) {}
 
+  public computers: Computer[] = this.computerservice.getComputers();
+
   ngOnInit() {
-    this.computerservice.getComputers().subscribe(
-      (response: Computer[]) => {
-        this.computers = response;
-      },
-      (error: any) => {
-        console.error('Error fetching computers:', error);
-      }
-    );
+    // this.computerservice.getComputers().subscribe(
+    //   (response: Computer[]) => {
+    //     this.computers = response;
+    //   },
+    //   (error: any) => {
+    //     console.error('Error fetching computers:', error);
+    //   }
+    // );
   }
 }
