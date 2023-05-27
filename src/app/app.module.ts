@@ -13,6 +13,8 @@ import { CardComponent } from './card/card.component';
 import { ButtonCardComponent } from './button-card/button-card.component';
 import { QuestionComponent } from './question/question.component';
 import { FiltreComponent } from './filtre/filtre.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { FiltreComponent } from './filtre/filtre.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
